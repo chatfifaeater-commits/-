@@ -5,7 +5,7 @@ const fs = require('fs'),
 global.session = "https://stark-pair.vercel.app";
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "STARK-MD==", // Add sess Id here especially when deploying on panels else use app.json and .env file...
+    SESSION_ID: process.env.SESSION_ID || "STARK-MD:pb:HHn1nfBG", // Add sess Id here especially when deploying on panels else use app.json and .env file...
     SUDO_NUMBERS: process.env.SUDO_NUMBERS || "", // Add multiple numbers with country codes without (+), separated by comma
     ANTI_DELETE: process.env.ANTI_DELETE || "true", // ✅ only ONE, default = true
     AUTO_STATUS_VIEWS: process.env.AUTO_STATUS_VIEWS || "true",
